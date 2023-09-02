@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+}
+
+picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+p {
+  font-size: 1.5vh;
+  width: 60%;
+
+  margin-left: 20%;
+  margin-right: 20%;
+}

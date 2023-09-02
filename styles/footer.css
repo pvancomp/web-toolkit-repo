@@ -1,0 +1,71 @@
+footer {
+  background-color: black;
+  bottom: 0;
+  height: 50px;
+  position: absolute;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+}
+
+footer > section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-links {
+  width: 25%;
+  float: left;
+  display: inline;
+}
+
+.footer-right {
+  width: 15%;
+  float: right;
+  display: inline;
+}
+
+.footer-links li {
+  list-style-type: none;
+}
+
+.footer-links a {
+  text-decoration: none;
+  font-size: 1.4em;
+  color: white;
+}
+
+.suggest form {
+  display: flex;
+}
+
+.suggest input {
+  background-color: #4a4a4a;
+  color: #f9faf8;
+  font-size: 1em;
+  border: none;
+  padding: 1%;
+}
+
+.suggest button {
+  background-color: #777777;
+  font-size: 1.1em;
+  border: none;
+  align-self: center;
+  color: #f9faf8;
+  padding: 1%;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 10%;
+  color: #f9faf8;
+  font-size: 1em;
+}
+
+.separator {
+  border: 0;
+  border-top: 1px solid #fff;
+  padding-top: 1%;
+}

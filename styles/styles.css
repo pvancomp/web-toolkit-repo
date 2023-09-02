@@ -1,0 +1,56 @@
+* {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-size: 20px;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+  padding-top: 1.5%;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.nav-link {
+  font-size: 1.7em;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-header {
+  padding: 0.5% 1% 0.3% 1%;
+  font-size: 1.7em;
+  list-style-type: none;
+  border-radius: 15px;
+}
+
+.nav-header:hover,
+.nav-dropdown:hover {
+  background: #777777;
+  cursor: pointer;
+}
+
+.nav-dropdown {
+  background: #777777;
+  visibility: hidden;
+}
+
+.nav-dropdown li {
+  list-style-type: none;
+  font-size: 1.5em;
+  color: white;
+}
+
+div.nav-dropdown {
+  display: table;
+  text-align: left;
+}
+
+.nav-header:hover .nav-dropdown {
+  visibility: visible;
+}
