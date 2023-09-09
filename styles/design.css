@@ -1,0 +1,77 @@
+* {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-size: 20px;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+/* SUBNAV */
+
+.subnav {
+  width: auto;
+  margin: 0% 10% 3% 10%;
+}
+.subnav-img {
+  width: 60%;
+  margin: 0% 10% 3% 10%;
+}
+
+.subheading {
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url(../IMAGES/BACKGROUNDS/BACKGROUND-2.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 80%;
+}
+
+.subheading li {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 2em;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+section {
+  margin-bottom: 2%;
+}
+
+h3 {
+  font-size: 3em;
+  margin-left: 20%;
+  margin-bottom: 1%;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-left: 20%;
+  margin-bottom: 1%;
+  text-decoration: underline;
+}
+
+.logo-rect {
+  width: 10%;
+  margin-left: 20%;
+}
+
+p {
+  font-size: 1.5vh;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.img {
+  width: auto;
+}

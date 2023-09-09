@@ -5,15 +5,17 @@
   color: white;
 }
 
+/* HEADER */
+
 nav {
   display: flex;
   justify-content: space-evenly;
   background-color: black;
   color: white;
   padding-top: 1.5%;
-  width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .nav-link {
@@ -53,4 +55,162 @@ div.nav-dropdown {
 
 .nav-header:hover .nav-dropdown {
   visibility: visible;
+}
+
+.nav-header-no-link {
+  padding: 0.5% 1% 0.3% 1%;
+  font-size: 1.7em;
+  list-style-type: none;
+}
+
+/* MAIN */
+
+body {
+  background-color: black;
+}
+
+main {
+  padding-bottom: 7%;
+}
+
+/* SUBNAV */
+
+.subnav {
+  width: 80%;
+  margin: 1% 10% 3% 10%;
+  background-image: url(../IMAGES/BACKGROUNDS/BACKGROUND-2.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 80%;
+}
+
+.subheading {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.subheading li {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 2em;
+  padding: 5% 2% 5% 0%;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+section {
+  margin-bottom: 2%;
+}
+
+h3 {
+  font-size: 3em;
+  margin: 4% 0% 1% 15%;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-left: 15%;
+  margin-bottom: 1%;
+
+  text-decoration: underline;
+}
+
+.logo-rect {
+  width: 10%;
+  margin-left: 15%;
+  margin-bottom: 1%;
+}
+
+p {
+  font-size: 1.2em;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.img {
+  width: auto;
+}
+
+.top {
+  padding-top: 1%;
+  text-decoration: underline;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  height: 5%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 3%;
+}
+
+footer > section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-links {
+  width: 25%;
+  float: left;
+  display: inline;
+}
+
+.footer-right {
+  width: 15%;
+  float: right;
+  display: inline;
+}
+
+.footer-links li {
+  list-style-type: none;
+}
+
+.footer-links a {
+  text-decoration: none;
+  font-size: 1.4em;
+  color: white;
+}
+
+.suggest form {
+  display: flex;
+}
+
+.suggest input {
+  background-color: #4a4a4a;
+  color: #f9faf8;
+  font-size: 1em;
+  border: none;
+  padding: 1%;
+}
+
+.suggest button {
+  background-color: #777777;
+  font-size: 1.1em;
+  border: none;
+  align-self: center;
+  color: #f9faf8;
+  padding: 1%;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 10%;
+  color: #f9faf8;
+  font-size: 1em;
+}
+
+.separator {
+  border: 0;
+  border-top: 1px solid #fff;
+  padding-top: 1%;
 }
