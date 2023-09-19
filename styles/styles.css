@@ -40,17 +40,24 @@ nav {
 .nav-dropdown {
   background: #777777;
   visibility: hidden;
+  text-decoration: none;
 }
 
 .nav-dropdown li {
   list-style-type: none;
+  text-decoration: none;
   font-size: 1.5em;
   color: white;
+}
+
+.nav-dropdown a {
+  text-decoration: none;
 }
 
 div.nav-dropdown {
   display: table;
   text-align: left;
+  text-decoration: none;
 }
 
 .nav-header:hover .nav-dropdown {
@@ -75,29 +82,7 @@ main {
 
 /* SUBNAV */
 
-.subnav {
-  width: 80%;
-  margin: 1% 10% 3% 10%;
-  background-image: url(../IMAGES/BACKGROUNDS/BACKGROUND-2.png);
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-size: 80%;
-}
-
-.subheading {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.subheading li {
-  text-decoration: none;
-  list-style-type: none;
-  font-size: 2em;
-  padding: 5% 2% 5% 0%;
-}
-
 a {
-  text-decoration: none;
   text-transform: uppercase;
   font-size: 1em;
 }
@@ -108,19 +93,23 @@ section {
 
 h3 {
   font-size: 3em;
-  margin: 4% 0% 1% 15%;
+  margin: 3% 0% 1% 15%;
+}
+
+h4 {
+  font-size: 2em;
+  margin: 3% 0% 1% 15%;
 }
 
 h1 {
   font-size: 1.5em;
   margin-left: 15%;
   margin-bottom: 1%;
-
   text-decoration: underline;
 }
 
 .logo-rect {
-  width: 10%;
+  width: 6%;
   margin-left: 15%;
   margin-bottom: 1%;
 }
