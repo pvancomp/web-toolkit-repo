@@ -4,11 +4,17 @@
   vertical-align: middle;
   padding: 3% 20% 3% 5%;
 }
-.subnav {
-  width: 80%;
-  margin: 1% 10% 0% 10%;
+.subnav-img {
+  width: 60%;
+  margin-left: 20%;
   background-image: url(../IMAGES/BACKGROUNDS/BACKGROUND-2.png);
   background-repeat: no-repeat;
   background-position-x: center;
-  background-size: 80%;
+  background-size: 60%;
+}
+
+.img {
+  width: 60%;
+  margin-top: 1%;
+  margin-left: 20%;
 }
